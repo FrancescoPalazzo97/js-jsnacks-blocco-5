@@ -20,4 +20,8 @@ const students = [
 ];
 
 // Recupera la classe dello studente 'Marco Lanci'
+
+const classToFind = students.find(student => student.name.includes(`Marco Lanci`)).class;
+console.log(classToFind);
+
 // Risultato: '3C'
